@@ -67,9 +67,9 @@ const Home = () => {
        <div className="title">
        <div className="h1"><div className="b-contain"><img src={bluelogo} alt="" /></div><h1 className='tracking-in-contract'>etBuiz</h1></div>
         <p className="herotxt">Elevate Your Business, One Pixel at a Time</p>
-        <button className="btn">
+       <Link to="/contact"><button className="btn">
     <b>Hire Us!</b>
-</button>
+</button></Link>
        </div>
       </div>
 
@@ -226,7 +226,7 @@ const Home = () => {
 
 
 <div className="contact-section">
-  <h1>contact</h1>
+  <h1>Hire us</h1>
 <div className="c-flex">
 <Three  />
 <div className="home-form"><EmailForm className='formsec' /></div>
