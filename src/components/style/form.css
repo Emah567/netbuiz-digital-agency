@@ -1,0 +1,78 @@
+.email-form{
+    width: 34vw;
+    height: 61vh;
+    padding: 8% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    background-color: #333;
+  
+
+}
+.field {
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .field input {
+    display: block;
+    min-width: 28vw !important;
+    line-height: 7vh;
+    font-size: 14px;
+    border-bottom: 1px solid royalblue;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out;
+    color: var(--stxt);
+  }
+
+  .message input{
+    height: 15vh;
+    min-width: 29vw !important;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
+
+  
+  /* Style the placeholder text */
+  form input::placeholder {
+    color: var(--blue);
+  }
+  
+  /* Style the border when the input is focused */
+  form input:focus {
+    border-color: var(--blue); /* Change this color to your desired focus color */
+    outline: none; 
+    border-bottom: 1px solid var(--blue)
+  }
+  
+
+  @media (max-width: 721px){
+    .email-form{
+      width: 70vw;
+    }
+
+    .field input{
+      min-width: 59vw !important;
+    }
+  }
+
+  @media (max-width: 499px){
+    .email-form{
+      width: 80vw;
+      height: 56vh;
+    }
+
+    .field input{
+      min-width: 70vw !important;
+    }
+  }

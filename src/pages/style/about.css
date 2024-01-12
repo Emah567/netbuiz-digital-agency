@@ -1,0 +1,62 @@
+.about{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10%;
+}
+
+.about h1{
+   margin-top: 15%;
+}
+
+.txt-a{
+     max-width: 60%;
+}
+
+.f-about, .collectives, .about-left p{
+  color: var(--stxt);
+}
+
+.txt-a h4{
+    color: var(--txt);
+    margin-top: 5%;
+}
+
+.about-left p{
+    margin-bottom: 4%;
+}
+
+.about-right .btn b{
+    font-size: 14px;
+}
+
+.about-right .btn {
+    margin-top: 1rem;
+}
+
+
+
+@media (max-width: 721px) {
+    .about{
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .txt-a{
+        max-width: 90%;
+   }
+
+}
+
+
+@media (max-width: 499px){
+    .txt-a{
+        max-width: 100%;
+   }
+
+   .about-head{
+    margin-bottom: 15%;
+ }
+
+   }

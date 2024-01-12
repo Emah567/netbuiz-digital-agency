@@ -1,0 +1,60 @@
+@media (max-width: 1069px) {
+  .contact-list h3{
+    max-width: 41vw;
+  }
+
+  .social-link{
+    width: 19rem;
+  }
+}
+
+@media (max-width: 721px) {
+    .email-formc{
+       display: none;
+    }
+
+    .mobile-form{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+      }
+
+      .list-flex{
+        flex-direction: column;
+      }
+
+      .list-flex{
+        align-items: start;
+      }
+
+      /* .social-link{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        padding: 0%;
+    } */
+   
+    .list-right{
+        padding: 0% !important;
+        margin-top: 2vh;
+    }
+
+    .contact-list{
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 499px){
+    .contact-hero{
+        height: 45vh;
+      }
+
+      .contact-list h3{
+        max-width: 100%;
+      }
+      
+}
